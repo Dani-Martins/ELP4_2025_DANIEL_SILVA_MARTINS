@@ -28,6 +28,9 @@ namespace projeto_elp
             oFrmConsEstados.setFrmCadastro(oFrmCadEstados);
             oFrmConsCidades.setFrmCadastro(oFrmCadCidades);
 
+            oFrmCadPaises.setFrmConsPaises(oFrmConsPaises);
+            oFrmCadEstados.setFrmConsEstados(oFrmConsEstados);
+            oFrmCadCidades.setFrmConsCidades(oFrmConsCidades);
         }
 
         public void PecaPaises(object obj, object ctrl)

@@ -12,20 +12,28 @@ namespace projeto_elp
     {
         Cidades oCidade;
         Controller aCtrl;
+
+        FrmConsEstados oFrmConsEstados;
         public FrmCadCidades()
         {
             InitializeComponent();
         }
 
+        public void setFrmConsEstados(object obj)
+        {
+            if (obj != null)
+            {
+                oFrmConsEstados = (FrmConsEstados)obj;
+            }
+        }
+
         protected override void Salvar()
         {
-            // Se o campo de texto do código estiver vazio, atribua "0" a ele.
             if (string.IsNullOrEmpty(txtCodigo.Text))
             {
                 txtCodigo.Text = "0";
             }
 
-            // Agora que o campo não está vazio, a conversão funcionará.
             oCidade.Codigo = Convert.ToInt32(txtCodigo.Text);
             oCidade.Cidade = txtCidade.Text;
             oCidade.Ddd = txtDdd.Text;
@@ -38,7 +46,6 @@ namespace projeto_elp
             this.txtCidade.Text = oCidade.Cidade;
             this.txtDdd.Text = oCidade.Ddd;
 
-            // Carrega o ComboBox para o Estado do objeto Cidade
             this.cboEstado.SelectedItem = oCidade.OEstado;
         }
 
@@ -47,7 +54,7 @@ namespace projeto_elp
             this.txtCodigo.Text = "0";
             this.txtCidade.Clear();
             this.txtDdd.Clear();
-            this.cboEstado.SelectedIndex = -1; // Limpa a seleção do ComboBox
+            this.cboEstado.SelectedIndex = -1; 
         }
 
         protected override void BloquearTxt()
@@ -74,8 +81,6 @@ namespace projeto_elp
 
         private void FrmCadCidades_Load(object sender, EventArgs e)
         {
-            // Preenche o ComboBox com a lista de estados
-            // cboEstado.DataSource = aCtrl.getEstados();
             cboEstado.DisplayMember = "Estado";
         }
     }

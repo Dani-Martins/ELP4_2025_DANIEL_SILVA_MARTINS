@@ -12,20 +12,27 @@ namespace projeto_elp
     {
         Estados oEstado;
         Controller aCtrl;
+
+        FrmConsPaises oFrmConsPaises;
         public FrmCadEstados()
         {
             InitializeComponent();
         }
 
+        public void setFrmConsPaises(object obj)
+        {
+            if (obj != null)
+            {
+                oFrmConsPaises = (FrmConsPaises)obj;
+            }
+        }
         protected override void Salvar()
         {
-            // Se o campo de texto do código estiver vazio, atribua "0" a ele.
             if (string.IsNullOrEmpty(txtCodigo.Text))
             {
                 txtCodigo.Text = "0";
             }
 
-            // Agora que o campo não está vazio, a conversão funcionará.
             oEstado.Codigo = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado = txtEstado.Text;
             oEstado.Uf = txtUf.Text;
@@ -38,7 +45,6 @@ namespace projeto_elp
             this.txtEstado.Text = oEstado.Estado;
             this.txtUf.Text = oEstado.Uf;
 
-            // Carrega o ComboBox para o Pais do objeto Estado
             this.cboPais.SelectedItem = oEstado.OPais;
         }
 
@@ -47,7 +53,7 @@ namespace projeto_elp
             this.txtCodigo.Text = "0";
             this.txtEstado.Clear();
             this.txtUf.Clear();
-            this.cboPais.SelectedIndex = -1; // Limpa a seleção do ComboBox
+            this.cboPais.SelectedIndex = -1; 
         }
 
         protected override void BloquearTxt()
@@ -79,9 +85,7 @@ namespace projeto_elp
 
         private void FrmCadEstados_Load(object sender, EventArgs e)
         {
-            // Preenche o ComboBox com a lista de países
-         //   cboPais.DataSource = aCtrl.getPaises(); // O getPaises é um método que retorna a lista de Paises
-            cboPais.DisplayMember = "Pais"; // Exibe o nome do País no ComboBox
+            cboPais.DisplayMember = "Pais"; 
         }
     }
 }
