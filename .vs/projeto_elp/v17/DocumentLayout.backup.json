@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "FrmPrincipal.cs",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmConsCidades.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs",
               "RelativeDocumentMoniker": "FrmConsCidades.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs",
-              "RelativeToolTip": "FrmConsCidades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs*",
+              "RelativeToolTip": "FrmConsCidades.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T04:07:33.915Z",
               "EditorCaption": ""
@@ -107,10 +107,11 @@
               "Title": "FrmConsCidades.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs",
               "RelativeDocumentMoniker": "FrmConsCidades.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs [Design]",
-              "RelativeToolTip": "FrmConsCidades.cs [Design]",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs [Design]*",
+              "RelativeToolTip": "FrmConsCidades.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T04:07:31.895Z"
+              "WhenOpened": "2025-08-18T04:07:31.895Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",

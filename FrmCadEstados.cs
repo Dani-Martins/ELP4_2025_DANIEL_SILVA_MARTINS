@@ -36,7 +36,6 @@ namespace projeto_elp
             oEstado.Codigo = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado = txtEstado.Text;
             oEstado.Uf = txtUf.Text;
-            oEstado.OPais = (Paises)cboPais.SelectedItem;
         }
 
         protected override void CarregaTxt()
@@ -45,7 +44,6 @@ namespace projeto_elp
             this.txtEstado.Text = oEstado.Estado;
             this.txtUf.Text = oEstado.Uf;
 
-            this.cboPais.SelectedItem = oEstado.OPais;
         }
 
         protected override void LimpaTxt()
@@ -53,21 +51,18 @@ namespace projeto_elp
             this.txtCodigo.Text = "0";
             this.txtEstado.Clear();
             this.txtUf.Clear();
-            this.cboPais.SelectedIndex = -1; 
         }
 
         protected override void BloquearTxt()
         {
             this.txtEstado.Enabled = false;
             this.txtUf.Enabled = false;
-            this.cboPais.Enabled = false;
         }
 
         protected override void DesbloquearTxt()
         {
             this.txtEstado.Enabled = true;
             this.txtUf.Enabled = true;
-            this.cboPais.Enabled = true;
         }
 
         public override void ConhecaObj(object obj, object ctrl)
@@ -85,7 +80,10 @@ namespace projeto_elp
 
         private void FrmCadEstados_Load(object sender, EventArgs e)
         {
-            cboPais.DisplayMember = "Pais"; 
+        }
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            oFrmConsPaises.ConhecaObj(oEstado.oPais)
         }
     }
 }

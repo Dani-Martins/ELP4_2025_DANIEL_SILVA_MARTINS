@@ -14,9 +14,9 @@ namespace projeto_elp
 
         public Estados() : base()
         {
-            estado = string.Empty;
+            estado = "";
             uf = string.Empty;
-            oPais = null;
+            oPais = new Paises();
         }
 
         public Estados(int codigo, DateTime datcad, DateTime ultalt, string estado, string uf, Paises oPais) : base(codigo, datcad, ultalt)

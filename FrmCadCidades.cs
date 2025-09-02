@@ -37,7 +37,6 @@ namespace projeto_elp
             oCidade.Codigo = Convert.ToInt32(txtCodigo.Text);
             oCidade.Cidade = txtCidade.Text;
             oCidade.Ddd = txtDdd.Text;
-            oCidade.OEstado = (Estados)cboEstado.SelectedItem;
         }
 
         protected override void CarregaTxt()
@@ -46,7 +45,6 @@ namespace projeto_elp
             this.txtCidade.Text = oCidade.Cidade;
             this.txtDdd.Text = oCidade.Ddd;
 
-            this.cboEstado.SelectedItem = oCidade.OEstado;
         }
 
         protected override void LimpaTxt()
@@ -54,21 +52,18 @@ namespace projeto_elp
             this.txtCodigo.Text = "0";
             this.txtCidade.Clear();
             this.txtDdd.Clear();
-            this.cboEstado.SelectedIndex = -1; 
         }
 
         protected override void BloquearTxt()
         {
             this.txtCidade.Enabled = false;
             this.txtDdd.Enabled = false;
-            this.cboEstado.Enabled = false;
         }
 
         protected override void DesbloquearTxt()
         {
             this.txtCidade.Enabled = true;
             this.txtDdd.Enabled = true;
-            this.cboEstado.Enabled = true;
         }
 
         public override void ConhecaObj(object obj, object ctrl)
@@ -81,7 +76,6 @@ namespace projeto_elp
 
         private void FrmCadCidades_Load(object sender, EventArgs e)
         {
-            cboEstado.DisplayMember = "Estado";
         }
     }
 }

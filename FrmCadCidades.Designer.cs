@@ -30,7 +30,6 @@
         {
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.txtDdd = new System.Windows.Forms.TextBox();
-            this.cboEstado = new System.Windows.Forms.ComboBox();
             this.lblCidade = new System.Windows.Forms.Label();
             this.lblDdd = new System.Windows.Forms.Label();
             this.lbloEstado = new System.Windows.Forms.Label();
@@ -49,16 +48,6 @@
             this.txtDdd.Name = "txtDdd";
             this.txtDdd.Size = new System.Drawing.Size(44, 20);
             this.txtDdd.TabIndex = 11;
-            // 
-            // cboEstado
-            // 
-            this.cboEstado.DisplayMember = "Estado";
-            this.cboEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboEstado.FormattingEnabled = true;
-            this.cboEstado.Location = new System.Drawing.Point(234, 20);
-            this.cboEstado.Name = "cboEstado";
-            this.cboEstado.Size = new System.Drawing.Size(121, 21);
-            this.cboEstado.TabIndex = 12;
             // 
             // lblCidade
             // 
@@ -94,7 +83,6 @@
             this.Controls.Add(this.lbloEstado);
             this.Controls.Add(this.lblDdd);
             this.Controls.Add(this.lblCidade);
-            this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtDdd);
             this.Controls.Add(this.txtCidade);
             this.Name = "FrmCadCidades";
@@ -112,7 +100,6 @@
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.txtCidade, 0);
             this.Controls.SetChildIndex(this.txtDdd, 0);
-            this.Controls.SetChildIndex(this.cboEstado, 0);
             this.Controls.SetChildIndex(this.lblCidade, 0);
             this.Controls.SetChildIndex(this.lblDdd, 0);
             this.Controls.SetChildIndex(this.lbloEstado, 0);
@@ -125,7 +112,6 @@
 
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.TextBox txtDdd;
-        private System.Windows.Forms.ComboBox cboEstado;
         private System.Windows.Forms.Label lblCidade;
         private System.Windows.Forms.Label lblDdd;
         private System.Windows.Forms.Label lbloEstado;
