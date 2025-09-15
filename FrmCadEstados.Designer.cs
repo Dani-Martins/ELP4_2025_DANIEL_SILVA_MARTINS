@@ -33,8 +33,10 @@
             this.txtUf = new System.Windows.Forms.TextBox();
             this.lblUf = new System.Windows.Forms.Label();
             this.lbloPais = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPais = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.txtCodigoPais = new System.Windows.Forms.TextBox();
+            this.lblCodigoPais = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtEstado
@@ -73,22 +75,22 @@
             // lbloPais
             // 
             this.lbloPais.AutoSize = true;
-            this.lbloPais.Location = new System.Drawing.Point(246, 6);
+            this.lbloPais.Location = new System.Drawing.Point(334, 5);
             this.lbloPais.Name = "lbloPais";
             this.lbloPais.Size = new System.Drawing.Size(27, 13);
             this.lbloPais.TabIndex = 15;
             this.lbloPais.Text = "Pais";
             // 
-            // textBox1
+            // txtPais
             // 
-            this.textBox1.Location = new System.Drawing.Point(249, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 16;
+            this.txtPais.Location = new System.Drawing.Point(337, 21);
+            this.txtPais.Name = "txtPais";
+            this.txtPais.Size = new System.Drawing.Size(100, 20);
+            this.txtPais.TabIndex = 16;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(355, 20);
+            this.btnBuscar.Location = new System.Drawing.Point(443, 19);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 17;
@@ -96,12 +98,30 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
+            // txtCodigoPais
+            // 
+            this.txtCodigoPais.Location = new System.Drawing.Point(266, 22);
+            this.txtCodigoPais.Name = "txtCodigoPais";
+            this.txtCodigoPais.Size = new System.Drawing.Size(44, 20);
+            this.txtCodigoPais.TabIndex = 18;
+            // 
+            // lblCodigoPais
+            // 
+            this.lblCodigoPais.AutoSize = true;
+            this.lblCodigoPais.Location = new System.Drawing.Point(266, 5);
+            this.lblCodigoPais.Name = "lblCodigoPais";
+            this.lblCodigoPais.Size = new System.Drawing.Size(40, 13);
+            this.lblCodigoPais.TabIndex = 19;
+            this.lblCodigoPais.Text = "Codigo";
+            // 
             // FrmCadEstados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(800, 343);
+            this.Controls.Add(this.lblCodigoPais);
+            this.Controls.Add(this.txtCodigoPais);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPais);
             this.Controls.Add(this.lbloPais);
             this.Controls.Add(this.lblUf);
             this.Controls.Add(this.txtUf);
@@ -125,8 +145,10 @@
             this.Controls.SetChildIndex(this.txtUf, 0);
             this.Controls.SetChildIndex(this.lblUf, 0);
             this.Controls.SetChildIndex(this.lbloPais, 0);
-            this.Controls.SetChildIndex(this.textBox1, 0);
+            this.Controls.SetChildIndex(this.txtPais, 0);
             this.Controls.SetChildIndex(this.btnBuscar, 0);
+            this.Controls.SetChildIndex(this.txtCodigoPais, 0);
+            this.Controls.SetChildIndex(this.lblCodigoPais, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,7 +161,9 @@
         private System.Windows.Forms.TextBox txtUf;
         private System.Windows.Forms.Label lblUf;
         private System.Windows.Forms.Label lbloPais;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPais;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox txtCodigoPais;
+        private System.Windows.Forms.Label lblCodigoPais;
     }
 }

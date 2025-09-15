@@ -24,6 +24,7 @@ namespace projeto_elp
 
         protected override void Incluir()
         {
+            oFrmCadPaises.LimpaTxt();
             oFrmCadPaises.ConhecaObj(oPais, aCtrl);
             oFrmCadPaises.ShowDialog();
         }
@@ -37,6 +38,8 @@ namespace projeto_elp
         protected override void Alterar()
         {
             oFrmCadPaises.ConhecaObj(oPais, aCtrl);
+            oFrmCadPaises.LimpaTxt();
+            oFrmCadPaises.CarregaTxt();
             oFrmCadPaises.ShowDialog();
         }
 

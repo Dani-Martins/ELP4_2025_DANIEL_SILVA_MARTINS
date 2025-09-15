@@ -17,7 +17,7 @@ namespace projeto_elp
             InitializeComponent();
         }
 
-        protected override void Salvar()
+        public override void Salvar()
         {
             //   if (Message Dlg("Confirma (S/N)") == "S")
             oPais.Codigo = Convert.ToInt32(txtCodigo.Text);
@@ -27,7 +27,7 @@ namespace projeto_elp
             oPais.Pais = txtPais.Text;
         }
 
-        protected override void CarregaTxt()
+        public override void CarregaTxt()
         {
             this.txtCodigo.Text = Convert.ToString(oPais.Codigo);
             this.txtSigla.Text = oPais.Sigla;
@@ -36,7 +36,7 @@ namespace projeto_elp
             this.txtPais.Text = oPais.Pais;
         }
 
-        protected override void LimpaTxt()
+        public override void LimpaTxt()
         {
             this.txtCodigo.Text = "0";
             this.txtSigla.Clear();
@@ -45,7 +45,7 @@ namespace projeto_elp
             this.txtPais.Clear();
         }
 
-        protected override void BloquearTxt()
+        public override void BloquearTxt()
         {
             this.txtPais.Enabled = false;
             this.txtDDI.Enabled = false;
@@ -53,7 +53,7 @@ namespace projeto_elp
             this.txtMoeda.Enabled = false;
         }
 
-        protected override void DesbloquearTxt()
+        public override void DesbloquearTxt()
         {
             this.txtPais.Enabled = true;
             this.txtDDI.Enabled = true;

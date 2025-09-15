@@ -3,31 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,28 +51,64 @@
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|c:\\users\\usuario\\documents\\elp_4\\projeto_elp\\estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\cidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:cidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\pai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:pai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\paises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:paises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmcadcidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconscidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB4D75E2-95E0-4612-B3DC-8C7FFF7F0BA3}|projeto_elp.csproj|solutionrelative:frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,58 +118,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 25,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmCadCidades.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs",
-              "RelativeDocumentMoniker": "FrmCadCidades.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs",
-              "RelativeToolTip": "FrmCadCidades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:38:14.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmCadCidades.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs",
-              "RelativeDocumentMoniker": "FrmCadCidades.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs [Design]",
-              "RelativeToolTip": "FrmCadCidades.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:38:13.848Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmCadPaises.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadPaises.cs",
-              "RelativeDocumentMoniker": "FrmCadPaises.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadPaises.cs [Design]",
-              "RelativeToolTip": "FrmCadPaises.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:38:10.092Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Interfaces.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Interfaces.cs",
-              "RelativeDocumentMoniker": "Interfaces.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Interfaces.cs",
-              "RelativeToolTip": "Interfaces.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T00:23:57.645Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -132,33 +134,244 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "FrmCadPaises.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadPaises.cs",
+              "RelativeDocumentMoniker": "FrmCadPaises.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadPaises.cs",
+              "RelativeToolTip": "FrmCadPaises.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA4wBMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T23:00:55.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Estados.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Estados.cs",
+              "RelativeDocumentMoniker": "Estados.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Estados.cs",
+              "RelativeToolTip": "Estados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:24:22.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cidades.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Cidades.cs",
+              "RelativeDocumentMoniker": "Cidades.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Cidades.cs",
+              "RelativeToolTip": "Cidades.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:24:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Controller.cs",
+              "RelativeDocumentMoniker": "Controller.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Controller.cs",
+              "RelativeToolTip": "Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:24:10.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsultas.cs",
+              "RelativeDocumentMoniker": "FrmConsultas.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsultas.cs",
+              "RelativeToolTip": "FrmConsultas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:59.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmConsultas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsultas.cs",
+              "RelativeDocumentMoniker": "FrmConsultas.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsultas.cs [Design]",
+              "RelativeToolTip": "FrmConsultas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:58.662Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pai.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Pai.cs",
+              "RelativeDocumentMoniker": "Pai.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Pai.cs",
+              "RelativeToolTip": "Pai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:40.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Paises.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Paises.cs",
+              "RelativeDocumentMoniker": "Paises.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Paises.cs",
+              "RelativeToolTip": "Paises.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:37.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Frm.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Frm.cs",
+              "RelativeDocumentMoniker": "Frm.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Frm.cs",
+              "RelativeToolTip": "Frm.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:05.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Frm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Frm.cs",
+              "RelativeDocumentMoniker": "Frm.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Frm.cs [Design]",
+              "RelativeToolTip": "Frm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:23:04.763Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmCadastros.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadastros.cs",
+              "RelativeDocumentMoniker": "FrmCadastros.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadastros.cs",
+              "RelativeToolTip": "FrmCadastros.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:22:56.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmCadastros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadastros.cs",
+              "RelativeDocumentMoniker": "FrmCadastros.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadastros.cs [Design]",
+              "RelativeToolTip": "FrmCadastros.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T01:22:55.728Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCadCidades.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs",
+              "RelativeDocumentMoniker": "FrmCadCidades.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs",
+              "RelativeToolTip": "FrmCadCidades.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAlwD4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:38:14.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FrmCadCidades.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs",
+              "RelativeDocumentMoniker": "FrmCadCidades.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadCidades.cs [Design]",
+              "RelativeToolTip": "FrmCadCidades.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:38:13.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmCadPaises.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadPaises.cs",
+              "RelativeDocumentMoniker": "FrmCadPaises.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadPaises.cs [Design]",
+              "RelativeToolTip": "FrmCadPaises.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:38:10.092Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Interfaces.cs",
+              "RelativeDocumentMoniker": "Interfaces.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\Interfaces.cs",
+              "RelativeToolTip": "Interfaces.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T00:23:57.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FrmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "FrmPrincipal.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmPrincipal.cs",
               "RelativeToolTip": "FrmPrincipal.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvyQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwC4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T00:23:49.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmCadEstados.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadEstados.cs",
               "RelativeDocumentMoniker": "FrmCadEstados.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadEstados.cs",
               "RelativeToolTip": "FrmCadEstados.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAnwD0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T00:21:55.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FrmCadEstados.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmCadEstados.cs",
               "RelativeDocumentMoniker": "FrmCadEstados.cs",
@@ -170,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "FrmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "FrmPrincipal.cs",
@@ -182,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "FrmConsCidades.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs",
               "RelativeDocumentMoniker": "FrmConsCidades.cs",
@@ -190,36 +403,37 @@
               "RelativeToolTip": "FrmConsCidades.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T04:07:33.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T04:07:33.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "FrmConsPaises.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsPaises.cs",
               "RelativeDocumentMoniker": "FrmConsPaises.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsPaises.cs",
               "RelativeToolTip": "FrmConsPaises.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T04:06:40.542Z"
+              "WhenOpened": "2025-08-18T04:06:40.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "FrmConsEstados.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsEstados.cs",
               "RelativeDocumentMoniker": "FrmConsEstados.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsEstados.cs",
               "RelativeToolTip": "FrmConsEstados.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T04:06:48.761Z"
+              "WhenOpened": "2025-08-18T04:06:48.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "FrmConsCidades.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsCidades.cs",
               "RelativeDocumentMoniker": "FrmConsCidades.cs",
@@ -237,18 +451,20 @@
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsEstados.cs [Design]",
               "RelativeToolTip": "FrmConsEstados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T04:06:47.212Z"
+              "WhenOpened": "2025-08-18T04:06:47.212Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "FrmConsPaises.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsPaises.cs",
               "RelativeDocumentMoniker": "FrmConsPaises.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\elp_4\\projeto_elp\\FrmConsPaises.cs [Design]",
               "RelativeToolTip": "FrmConsPaises.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T04:06:38.98Z"
+              "WhenOpened": "2025-08-18T04:06:38.98Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

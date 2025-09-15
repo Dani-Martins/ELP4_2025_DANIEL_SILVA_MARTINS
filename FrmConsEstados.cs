@@ -11,6 +11,7 @@ namespace projeto_elp
     public partial class FrmConsEstados : projeto_elp.FrmConsultas
     {
         FrmCadEstados oFrmCadEstados;
+        FrmConsPaises oFrmConsPaises;
         Estados oEstado;
         Controller aCtrl;
         public FrmConsEstados()

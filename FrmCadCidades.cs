@@ -27,7 +27,7 @@ namespace projeto_elp
             }
         }
 
-        protected override void Salvar()
+        public override void Salvar()
         {
             if (string.IsNullOrEmpty(txtCodigo.Text))
             {
@@ -39,7 +39,7 @@ namespace projeto_elp
             oCidade.Ddd = txtDdd.Text;
         }
 
-        protected override void CarregaTxt()
+        public override void CarregaTxt()
         {
             this.txtCodigo.Text = Convert.ToString(oCidade.Codigo);
             this.txtCidade.Text = oCidade.Cidade;
@@ -47,20 +47,20 @@ namespace projeto_elp
 
         }
 
-        protected override void LimpaTxt()
+        public override void LimpaTxt()
         {
             this.txtCodigo.Text = "0";
             this.txtCidade.Clear();
             this.txtDdd.Clear();
         }
 
-        protected override void BloquearTxt()
+        public override void BloquearTxt()
         {
             this.txtCidade.Enabled = false;
             this.txtDdd.Enabled = false;
         }
 
-        protected override void DesbloquearTxt()
+        public override void DesbloquearTxt()
         {
             this.txtCidade.Enabled = true;
             this.txtDdd.Enabled = true;

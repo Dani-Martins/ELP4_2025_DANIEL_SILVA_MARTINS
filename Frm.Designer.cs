@@ -66,6 +66,6 @@
 
         #endregion
         protected System.Windows.Forms.TextBox txtCodigo;
-        protected System.Windows.Forms.Button btnSair;
+        public System.Windows.Forms.Button btnSair;
     }
 }

@@ -20,27 +20,27 @@ namespace projeto_elp
             Salvar();
         }
 
-        protected virtual void Salvar()
+        public virtual void Salvar()
         {
 
         }
 
-        protected virtual void CarregaTxt()
+        public virtual void CarregaTxt()
         {
 
         }
 
-        protected virtual void LimpaTxt()
+        public virtual void LimpaTxt()
         {
 
         }
 
-        protected virtual void BloquearTxt()
+        public virtual void BloquearTxt()
         {
 
         }
 
-        protected virtual void DesbloquearTxt()
+        public virtual void DesbloquearTxt()
         {
 
         }

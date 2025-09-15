@@ -26,7 +26,7 @@ namespace projeto_elp
                 oFrmConsPaises = (FrmConsPaises)obj;
             }
         }
-        protected override void Salvar()
+        public override void Salvar()
         {
             if (string.IsNullOrEmpty(txtCodigo.Text))
             {
@@ -38,7 +38,7 @@ namespace projeto_elp
             oEstado.Uf = txtUf.Text;
         }
 
-        protected override void CarregaTxt()
+        public override void CarregaTxt()
         {
             this.txtCodigo.Text = Convert.ToString(oEstado.Codigo);
             this.txtEstado.Text = oEstado.Estado;
@@ -46,20 +46,20 @@ namespace projeto_elp
 
         }
 
-        protected override void LimpaTxt()
+        public override void LimpaTxt()
         {
             this.txtCodigo.Text = "0";
             this.txtEstado.Clear();
             this.txtUf.Clear();
         }
 
-        protected override void BloquearTxt()
+        public override void BloquearTxt()
         {
             this.txtEstado.Enabled = false;
             this.txtUf.Enabled = false;
         }
 
-        protected override void DesbloquearTxt()
+        public override void DesbloquearTxt()
         {
             this.txtEstado.Enabled = true;
             this.txtUf.Enabled = true;
@@ -83,7 +83,13 @@ namespace projeto_elp
         }
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            oFrmConsPaises.ConhecaObj(oEstado.oPais)
+            string obtnSair = oFrmConsPaises.btnSair.Text;
+            oFrmConsPaises.btnSair.Text = "Selecionar";
+            oFrmConsPaises.ConhecaObj(oEstado.OPais, aCtrl);
+            oFrmConsPaises.ShowDialog();
+            this.txtCodigoPais.Text = Convert.ToString(oEstado.OPais.Codigo);
+            this.txtPais.Text = oEstado.OPais.ToString();
+            oFrmConsPaises.btnSair = btnSair;
         }
     }
 }
