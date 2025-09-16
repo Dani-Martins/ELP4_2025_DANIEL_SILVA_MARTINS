@@ -38,6 +38,19 @@
             this.txtMoeda = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
+            // btnSalvar
+            // 
+            this.btnSalvar.TabIndex = 4;
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Enabled = false;
+            this.txtCodigo.TabIndex = 16;
+            // 
+            // btnSair
+            // 
+            this.btnSair.TabIndex = 5;
+            // 
             // lblPais
             // 
             this.lblPais.AutoSize = true;
@@ -82,28 +95,34 @@
             this.txtPais.Name = "txtPais";
             this.txtPais.Size = new System.Drawing.Size(182, 20);
             this.txtPais.TabIndex = 0;
-            this.txtPais.UseSystemPasswordChar = true;
             // 
             // txtSigla
             // 
+            this.txtSigla.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtSigla.Location = new System.Drawing.Point(281, 21);
             this.txtSigla.Name = "txtSigla";
             this.txtSigla.Size = new System.Drawing.Size(41, 20);
-            this.txtSigla.TabIndex = 15;
+            this.txtSigla.TabIndex = 1;
             // 
             // txtDDI
             // 
+            this.txtDDI.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtDDI.Location = new System.Drawing.Point(337, 21);
+            this.txtDDI.MaxLength = 5;
             this.txtDDI.Name = "txtDDI";
             this.txtDDI.Size = new System.Drawing.Size(50, 20);
-            this.txtDDI.TabIndex = 16;
+            this.txtDDI.TabIndex = 2;
+            this.txtDDI.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtMoeda
             // 
+            this.txtMoeda.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtMoeda.Location = new System.Drawing.Point(393, 21);
+            this.txtMoeda.MaxLength = 3;
             this.txtMoeda.Name = "txtMoeda";
             this.txtMoeda.Size = new System.Drawing.Size(32, 20);
-            this.txtMoeda.TabIndex = 17;
+            this.txtMoeda.TabIndex = 3;
+            this.txtMoeda.TabStop = false;
             // 
             // FrmCadPaises
             // 
