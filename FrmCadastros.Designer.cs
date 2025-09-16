@@ -140,8 +140,6 @@
         }
 
         #endregion
-
-        protected System.Windows.Forms.Button btnSalvar;
         protected System.Windows.Forms.Label lblCodigo;
         protected System.Windows.Forms.TextBox txtDatacad;
         protected System.Windows.Forms.TextBox txtUltAlt;
@@ -149,5 +147,6 @@
         protected System.Windows.Forms.Label label1;
         protected System.Windows.Forms.Label label2;
         protected System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Button btnSalvar;
     }
 }

@@ -31,12 +31,16 @@ namespace projeto_elp
 
         protected override void Excluir()
         {
+            string aux;
             oFrmCadPaises.ConhecaObj(oPais, aCtrl);
             oFrmCadPaises.LimpaTxt();
             oFrmCadPaises.CarregaTxt();
             oFrmCadPaises.BloquearTxt();
+            aux = oFrmCadPaises.btnSalvar.Text;
+            oFrmCadPaises.btnSalvar.Text = "Excluir";
             oFrmCadPaises.ShowDialog();
             oFrmCadPaises.DesbloquearTxt();
+            oFrmCadPaises.btnSalvar.Text = aux;
         }
 
         protected override void Alterar()
