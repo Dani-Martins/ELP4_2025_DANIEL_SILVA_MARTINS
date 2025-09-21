@@ -11,7 +11,6 @@ namespace projeto_elp
     public partial class FrmConsEstados : projeto_elp.FrmConsultas
     {
         FrmCadEstados oFrmCadEstados;
-        FrmConsPaises oFrmConsPaises;
         Estados oEstado;
         Controller aCtrl;
         public FrmConsEstados()
@@ -25,19 +24,30 @@ namespace projeto_elp
 
         protected override void Incluir()
         {
+            oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
             oFrmCadEstados.ShowDialog();
         }
 
         protected override void Excluir()
         {
+            string aux;
             oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
+            oFrmCadEstados.LimpaTxt();
+            oFrmCadEstados.CarregaTxt();
+            oFrmCadEstados.BloquearTxt();
+            aux = oFrmCadEstados.btnSalvar.Text;
+            oFrmCadEstados.btnSalvar.Text = "Excluir";
             oFrmCadEstados.ShowDialog();
+            oFrmCadEstados.DesbloquearTxt();
+            oFrmCadEstados.btnSalvar.Text = aux;
         }
 
         protected override void Alterar()
         {
             oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
+            oFrmCadEstados.LimpaTxt();
+            oFrmCadEstados.CarregaTxt();
             oFrmCadEstados.ShowDialog();
         }
 
