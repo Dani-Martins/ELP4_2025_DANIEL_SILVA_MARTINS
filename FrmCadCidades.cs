@@ -77,5 +77,16 @@ namespace projeto_elp
         private void FrmCadCidades_Load(object sender, EventArgs e)
         {
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string obtnSair = oFrmConsEstados.btnSair.Text;
+            oFrmConsEstados.btnSair.Text = "Selecionar";
+            oFrmConsEstados.ConhecaObj(oCidade.OEstado, aCtrl);
+            oFrmConsEstados.ShowDialog();
+            this.txtCodigoEstado.Text = Convert.ToString(oCidade.OEstado.Codigo);
+            this.txtEstado.Text = oCidade.OEstado.ToString();
+            oFrmConsEstados.btnSair = btnSair;
+        }
     }
 }
