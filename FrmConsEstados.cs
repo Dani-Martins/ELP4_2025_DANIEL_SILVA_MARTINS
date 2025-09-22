@@ -27,6 +27,7 @@ namespace projeto_elp
             oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
             oFrmCadEstados.ShowDialog();
+            this.CarregaLV();
         }
 
         protected override void Excluir()
@@ -49,6 +50,14 @@ namespace projeto_elp
             oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.CarregaTxt();
             oFrmCadEstados.ShowDialog();
+        }
+
+        protected override void CarregaLV()
+        {
+            ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
+            item.SubItems.Add(oEstado.Estado);
+            item.SubItems.Add(oEstado.Uf);
+            ListV.Items.Add(item);
         }
 
         public override void setFrmCadastro(Object obj)

@@ -31,6 +31,10 @@ namespace projeto_elp
         {
         }
 
+        protected virtual void CarregaLV()
+        {
+        }
+
         public virtual void setFrmCadastro(Object obj)
         {
 

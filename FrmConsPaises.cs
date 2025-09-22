@@ -27,6 +27,7 @@ namespace projeto_elp
             oFrmCadPaises.LimpaTxt();
             oFrmCadPaises.ConhecaObj(oPais, aCtrl);
             oFrmCadPaises.ShowDialog();
+            this.CarregaLV();
         }
 
         protected override void Excluir()
@@ -49,6 +50,16 @@ namespace projeto_elp
             oFrmCadPaises.LimpaTxt();
             oFrmCadPaises.CarregaTxt();
             oFrmCadPaises.ShowDialog();
+        }
+
+        protected override void CarregaLV()
+        {
+            ListViewItem item = new ListViewItem(Convert.ToString(oPais.Codigo));
+            item.SubItems.Add(oPais.Pais);
+            item.SubItems.Add(oPais.Sigla);
+            item.SubItems.Add(oPais.Ddi);
+            item.SubItems.Add(oPais.Moeda);
+            ListV.Items.Add(item);
         }
 
         public override void setFrmCadastro(Object obj)

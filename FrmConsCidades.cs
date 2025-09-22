@@ -27,6 +27,7 @@ namespace projeto_elp
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.ConhecaObj(aCidade, aCtrl);
             oFrmCadCidades.ShowDialog();
+            this.CarregaLV();
         }
 
         protected override void Excluir()
@@ -49,6 +50,14 @@ namespace projeto_elp
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.CarregaTxt();
             oFrmCadCidades.ShowDialog();
+        }
+
+        protected override void CarregaLV()
+        {
+            ListViewItem item = new ListViewItem(Convert.ToString(aCidade.Codigo));
+            item.SubItems.Add(aCidade.Cidade);
+            item.SubItems.Add(aCidade.Ddd);
+            ListV.Items.Add(item);
         }
 
         public override void setFrmCadastro(Object obj)

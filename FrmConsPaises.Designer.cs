@@ -28,7 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.colPais = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colSigla = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDDI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colMoeda = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
+            // 
+            // ListV
+            // 
+            this.ListV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colPais,
+            this.colSigla,
+            this.colDDI,
+            this.colMoeda});
+            // 
+            // colPais
+            // 
+            this.colPais.Text = "País";
+            this.colPais.Width = 200;
+            // 
+            // colSigla
+            // 
+            this.colSigla.Text = "Sigla";
+            this.colSigla.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // colDDI
+            // 
+            this.colDDI.Text = "DDI";
+            this.colDDI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // colMoeda
+            // 
+            this.colMoeda.Text = "Moeda";
+            this.colMoeda.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // FrmConsPaises
             // 
@@ -43,5 +75,10 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ColumnHeader colPais;
+        private System.Windows.Forms.ColumnHeader colSigla;
+        private System.Windows.Forms.ColumnHeader colDDI;
+        private System.Windows.Forms.ColumnHeader colMoeda;
     }
 }
