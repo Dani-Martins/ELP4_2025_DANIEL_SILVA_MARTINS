@@ -37,7 +37,7 @@ namespace projeto_elp
             oCidade.Codigo = Convert.ToInt32(txtCodigo.Text);
             oCidade.Cidade = txtCidade.Text;
             oCidade.Ddd = txtDdd.Text;
-            aCtrlCidades.Salvar(oCidade);
+            MessageBox.Show(aCtrlCidades.Salvar(oCidade));
         }
 
         public override void CarregaTxt()

@@ -36,7 +36,7 @@ namespace projeto_elp
             oEstado.Codigo = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado = txtEstado.Text;
             oEstado.Uf = txtUf.Text;
-            aCtrlEstados.Salvar(oEstado);
+            MessageBox.Show(aCtrlEstados.Salvar(oEstado));
         }
 
         public override void CarregaTxt()

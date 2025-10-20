@@ -25,7 +25,7 @@ namespace projeto_elp
             oPais.Ddi = txtDDI.Text;
             oPais.Moeda = txtMoeda.Text;
             oPais.Pais = txtPais.Text;
-            aCtrlPaises.Salvar(oPais);
+            MessageBox.Show(aCtrlPaises.Salvar(oPais));
         }
 
         public override void CarregaTxt()
