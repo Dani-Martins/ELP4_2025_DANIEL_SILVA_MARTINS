@@ -11,7 +11,7 @@ namespace projeto_elp
     public partial class FrmCadEstados : projeto_elp.FrmCadastros
     {
         Estados oEstado;
-        Controller aCtrl;
+        CtrlEstados aCtrlEstados;
 
         FrmConsPaises oFrmConsPaises;
         public FrmCadEstados()
@@ -36,6 +36,7 @@ namespace projeto_elp
             oEstado.Codigo = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado = txtEstado.Text;
             oEstado.Uf = txtUf.Text;
+            aCtrlEstados.Salvar(oEstado);
         }
 
         public override void CarregaTxt()
@@ -70,7 +71,7 @@ namespace projeto_elp
             if (obj != null)
                 oEstado = (Estados)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlEstados = (CtrlEstados)ctrl;
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -85,7 +86,7 @@ namespace projeto_elp
         {
             string obtnSair = oFrmConsPaises.btnSair.Text;
             oFrmConsPaises.btnSair.Text = "Selecionar";
-            oFrmConsPaises.ConhecaObj(oEstado.OPais, aCtrl);
+            oFrmConsPaises.ConhecaObj(oEstado.OPais, aCtrlEstados);
             oFrmConsPaises.ShowDialog();
             this.txtCodigoPais.Text = Convert.ToString(oEstado.OPais.Codigo);
             this.txtPais.Text = oEstado.OPais.ToString();

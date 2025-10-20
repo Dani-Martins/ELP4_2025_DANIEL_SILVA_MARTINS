@@ -14,9 +14,12 @@ namespace projeto_elp
     {
         Interfaces aInter = new Interfaces();
         Paises oPais = new Paises();
-        Controller aCtrl = new Controller();
+        Controller<Object> aCtrl = new Controller<Object>();
         Estados oEstado = new Estados();
         Cidades aCidade = new Cidades();
+        CtrlPaises aCtrlPaises = new CtrlPaises();
+        CtrlEstados aCtrlEstados = new CtrlEstados();
+        CtrlCidades aCtrlCidades = new CtrlCidades();
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -34,7 +37,7 @@ namespace projeto_elp
 
         private void paisesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            aInter.PecaPaises(oPais, aCtrl);
+            aInter.PecaPaises(oPais, aCtrlPaises);
         }
 
         private void cadastrosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -44,12 +47,12 @@ namespace projeto_elp
 
         private void estadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            aInter.PecaEstados(oEstado, aCtrl);
+            aInter.PecaEstados(oEstado, aCtrlEstados);
         }
 
         private void cidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            aInter.PecaCidades(aCidade, aCtrl);
+            aInter.PecaCidades(aCidade, aCtrlCidades);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace projeto_elp
     public partial class FrmCadCidades : projeto_elp.FrmCadastros
     {
         Cidades oCidade;
-        Controller aCtrl;
+        CtrlCidades aCtrlCidades;
 
         FrmConsEstados oFrmConsEstados;
         public FrmCadCidades()
@@ -37,6 +37,7 @@ namespace projeto_elp
             oCidade.Codigo = Convert.ToInt32(txtCodigo.Text);
             oCidade.Cidade = txtCidade.Text;
             oCidade.Ddd = txtDdd.Text;
+            aCtrlCidades.Salvar(oCidade);
         }
 
         public override void CarregaTxt()
@@ -71,7 +72,7 @@ namespace projeto_elp
             if (obj != null)
                 oCidade = (Cidades)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlCidades = (CtrlCidades)ctrl;
         }
 
         private void FrmCadCidades_Load(object sender, EventArgs e)
@@ -82,7 +83,7 @@ namespace projeto_elp
         {
             string obtnSair = oFrmConsEstados.btnSair.Text;
             oFrmConsEstados.btnSair.Text = "Selecionar";
-            oFrmConsEstados.ConhecaObj(oCidade.OEstado, aCtrl);
+            oFrmConsEstados.ConhecaObj(oCidade.OEstado, aCtrlCidades);
             oFrmConsEstados.ShowDialog();
             this.txtCodigoEstado.Text = Convert.ToString(oCidade.OEstado.Codigo);
             this.txtEstado.Text = oCidade.OEstado.ToString();

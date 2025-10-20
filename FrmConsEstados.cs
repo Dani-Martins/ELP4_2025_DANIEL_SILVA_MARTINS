@@ -12,7 +12,7 @@ namespace projeto_elp
     {
         FrmCadEstados oFrmCadEstados;
         Estados oEstado;
-        Controller aCtrl;
+        CtrlEstados aCtrlEstados;
         public FrmConsEstados()
         {
             InitializeComponent();
@@ -25,7 +25,7 @@ namespace projeto_elp
         protected override void Incluir()
         {
             oFrmCadEstados.LimpaTxt();
-            oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
+            oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
             oFrmCadEstados.ShowDialog();
             this.CarregaLV();
         }
@@ -33,7 +33,7 @@ namespace projeto_elp
         protected override void Excluir()
         {
             string aux;
-            oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
+            oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
             oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.CarregaTxt();
             oFrmCadEstados.BloquearTxt();
@@ -46,7 +46,7 @@ namespace projeto_elp
 
         protected override void Alterar()
         {
-            oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
+            oFrmCadEstados.ConhecaObj(oEstado, aCtrlEstados);
             oFrmCadEstados.LimpaTxt();
             oFrmCadEstados.CarregaTxt();
             oFrmCadEstados.ShowDialog();
@@ -54,10 +54,10 @@ namespace projeto_elp
 
         protected override void CarregaLV()
         {
-            ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
-            item.SubItems.Add(oEstado.Estado);
-            item.SubItems.Add(oEstado.Uf);
-            ListV.Items.Add(item);
+                ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
+                item.SubItems.Add(oEstado.Estado);
+                item.SubItems.Add(oEstado.Uf);
+                ListV.Items.Add(item);
         }
 
         public override void setFrmCadastro(Object obj)
@@ -71,7 +71,7 @@ namespace projeto_elp
             if (obj != null)
                 oEstado = (Estados)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlEstados = (CtrlEstados)ctrl;
         }
 
         private void FrmConsEstados_Load(object sender, EventArgs e)

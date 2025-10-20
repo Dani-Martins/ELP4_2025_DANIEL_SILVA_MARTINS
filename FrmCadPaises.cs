@@ -11,7 +11,7 @@ namespace projeto_elp
     public partial class FrmCadPaises : projeto_elp.FrmCadastros
     {
         Paises oPais;
-        Controller aCtrl;
+        CtrlPaises aCtrlPaises;
         public FrmCadPaises()
         {
             InitializeComponent();
@@ -25,6 +25,7 @@ namespace projeto_elp
             oPais.Ddi = txtDDI.Text;
             oPais.Moeda = txtMoeda.Text;
             oPais.Pais = txtPais.Text;
+            aCtrlPaises.Salvar(oPais);
         }
 
         public override void CarregaTxt()
@@ -66,7 +67,7 @@ namespace projeto_elp
             if (obj != null)
                 oPais = (Paises)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlPaises = (CtrlPaises)ctrl;
         }
 
         private void FrmCadPaises_Load(object sender, EventArgs e)

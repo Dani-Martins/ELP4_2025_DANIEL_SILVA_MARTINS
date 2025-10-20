@@ -18,3 +18,5 @@ C:\Users\USUARIO\Documents\elp_4\projeto_elp\obj\Debug\projeto_elp.FrmCadastros.
 C:\Users\USUARIO\Documents\elp_4\projeto_elp\obj\Debug\projeto_elp.FrmCadCidades.resources
 C:\Users\USUARIO\Documents\elp_4\projeto_elp\obj\Debug\projeto_elp.FrmCadEstados.resources
 C:\Users\USUARIO\Documents\elp_4\projeto_elp\obj\Debug\projeto_elp.FrmCadPaises.resources
+C:\Users\USUARIO\Documents\elp_4\projeto_elp\bin\Debug\ELP42025.mdf
+C:\Users\USUARIO\Documents\elp_4\projeto_elp\bin\Debug\ELP42025_log.ldf

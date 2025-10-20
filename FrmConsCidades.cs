@@ -12,7 +12,7 @@ namespace projeto_elp
     {
         FrmCadCidades oFrmCadCidades;
         Cidades aCidade;
-        Controller aCtrl;
+        CtrlCidades aCtrlCidades;
         public FrmConsCidades()
         {
             InitializeComponent();
@@ -25,7 +25,7 @@ namespace projeto_elp
         protected override void Incluir()
         {
             oFrmCadCidades.LimpaTxt();
-            oFrmCadCidades.ConhecaObj(aCidade, aCtrl);
+            oFrmCadCidades.ConhecaObj(aCidade, aCtrlCidades);
             oFrmCadCidades.ShowDialog();
             this.CarregaLV();
         }
@@ -33,7 +33,7 @@ namespace projeto_elp
         protected override void Excluir()
         {
             string aux;
-            oFrmCadCidades.ConhecaObj(aCidade, aCtrl);
+            oFrmCadCidades.ConhecaObj(aCidade, aCtrlCidades);
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.CarregaTxt();
             oFrmCadCidades.BloquearTxt();
@@ -46,7 +46,7 @@ namespace projeto_elp
 
         protected override void Alterar()
         {
-            oFrmCadCidades.ConhecaObj(aCidade, aCtrl);
+            oFrmCadCidades.ConhecaObj(aCidade, aCtrlCidades);
             oFrmCadCidades.LimpaTxt();
             oFrmCadCidades.CarregaTxt();
             oFrmCadCidades.ShowDialog();
@@ -54,10 +54,10 @@ namespace projeto_elp
 
         protected override void CarregaLV()
         {
-            ListViewItem item = new ListViewItem(Convert.ToString(aCidade.Codigo));
-            item.SubItems.Add(aCidade.Cidade);
-            item.SubItems.Add(aCidade.Ddd);
-            ListV.Items.Add(item);
+                ListViewItem item = new ListViewItem(Convert.ToString(aCidade.Codigo));
+                item.SubItems.Add(aCidade.Cidade);
+                item.SubItems.Add(aCidade.Ddd);
+                ListV.Items.Add(item);
         }
 
         public override void setFrmCadastro(Object obj)
@@ -71,7 +71,7 @@ namespace projeto_elp
             if (obj != null)
                 aCidade = (Cidades)obj;
             if (ctrl != null)
-                aCtrl = (Controller)ctrl;
+                aCtrlCidades = (CtrlCidades)ctrl;
         }
 
         private void FrmConsCidades_Load(object sender, EventArgs e)
